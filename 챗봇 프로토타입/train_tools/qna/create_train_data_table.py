@@ -82,7 +82,7 @@ try:
     db = pymysql.connect(
         host = DB_HOST,
         user = DB_USER,
-        passwd = DB_PASSSWORD,
+        passwd = DB_PASSWORD,
         db = DB_NAME,
         charset = 'utf8'
     )
